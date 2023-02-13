@@ -6,16 +6,14 @@
 }
 
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
+  font-family: "Roboto", Arial;
   line-height: 30px;
-  color: #777;
-  background: #d8edf0;
+  color: #505050;
+  background: #eff2f3;
 }
 
 .container {
-  max-width: 400px;
+  max-width: 450px;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -27,7 +25,7 @@ body {
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  font: 400 0.85rem "Roboto", Arial;
 }
 
 #contact {
@@ -38,16 +36,14 @@ body {
 }
 
 #contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 1.8rem;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
 #contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
+  margin: 5px 0 25px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -81,7 +77,7 @@ fieldset {
 }
 
 #contact textarea {
-  height: 100px;
+  height: 150px;
   max-width: 100%;
   resize: none;
 }
@@ -90,15 +86,15 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #73aeb3;
+  background: #4349a0;
   color: rgb(255, 255, 255);
   margin: 0 0 5px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 #contact button[type="submit"]:hover {
-  background: #439aa0;
+  background: #34397c;
   transition: 0.3s ease-in-out;
 }
 
